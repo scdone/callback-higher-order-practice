@@ -30,54 +30,54 @@
 
 // console.log(calculator(2,2,add))
 
-function applyPercent (price, percent){
-    let total = price - (price*(percent*.01))
-    return total
-}
+// function applyPercent (price, percent){
+//     let total = price - (price*(percent*.01))
+//     return total
+// }
 
-function applyFlatRate(price, flatrate){
-    let total = price - flatrate
-    return total
-}
+// function applyFlatRate(price, flatrate){
+//     let total = price - flatrate
+//     return total
+// }
 
-const percentCoupon = (price,couponAmt) => {return price - (price*(couponAmt*.01))}
-
-
-
-let products = [
-    {item: 'banana',
-    price: 1,
-    onsale: TRUE
-},
-{
-    item: 'steak',
-    price: 10,
-    onsale: FALSE
-},
-{
-    item: 'eggs',
-    price: 2,
-    onsale: TRUE
-},
-{
-    item: 'milk',
-    price: 3,
-    onsale: TRUE
-},
-{
-    item: 'oreos',
-    price: 4,
-    onsale: FALSE
-}
-]
+// const percentCoupon = (price,couponAmt) => {return price - (price*(couponAmt*.01))}
 
 
-const discount = (currentPrice, discountAmount, discountType) => {
-    return discountType(currentPrice, discountAmount)}
+
+// let products = [
+//     {item: 'banana',
+//     price: 1,
+//     onsale: TRUE
+// },
+// {
+//     item: 'steak',
+//     price: 10,
+//     onsale: FALSE
+// },
+// {
+//     item: 'eggs',
+//     price: 2,
+//     onsale: TRUE
+// },
+// {
+//     item: 'milk',
+//     price: 3,
+//     onsale: TRUE
+// },
+// {
+//     item: 'oreos',
+//     price: 4,
+//     onsale: FALSE
+// }
+// ]
 
 
-console.log(discount(10,25,applyPercent))
-console.log(discount(20,5,applyFlatRate))
-console.log(discount(50,5,percentCoupon))
+// const discount = (currentPrice, discountAmount, discountType) => {
+//     return discountType(currentPrice, discountAmount)}
+
+
+// console.log(discount(10,25,applyPercent))
+// console.log(discount(20,5,applyFlatRate))
+// console.log(discount(50,5,percentCoupon))
 
 
